@@ -8,9 +8,9 @@ int main() {
     float cost_price, sell_price, sub;
 
     printf("Please enter cost price: ");
-    scanf("%d", &cost_price);
+    scanf("%f", &cost_price);
     printf("Please enter sell price: ");
-    scanf("%d", &sell_price);
+    scanf("%f", &sell_price);
 
     if(cost_price < sell_price) {
         sub = sell_price - cost_price;
@@ -23,7 +23,7 @@ int main() {
         printf("Alas! You made %.2f tk as lose\n", sub);
     }
     else {
-        printf("You no profit or lose, Your life is lose :)");
+        printf("\nYou no profit or lose, Your life is lose :)");
     }
 
     return 0;
