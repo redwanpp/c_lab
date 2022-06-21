@@ -1,4 +1,4 @@
-//finding maximu with if else
+//finding maximum with if else
 //Written by S. M. Redwan
 //ID: 221-35-828
 

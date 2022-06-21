@@ -1,3 +1,7 @@
+//swapping two number
+//written by S. M. Redwan
+//ID: 221-35-828
+
 #include <stdio.h>
 
 int main() {
@@ -8,10 +12,10 @@ int main() {
 
     printf("Before interchange:\nC = %d and D = %d\n", c, d);
 
-    temp = c; 
+    temp = c;
     c = d;
     d = temp;
-    
+
     printf("After interchange:\nC = %d and D = %d\n", c, d);
 
     return 0;

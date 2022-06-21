@@ -1,30 +1,29 @@
 //cheaking is this prime or not
+//Written by S. M. Redwan
+//ID: 221-35-828
 
 #include <stdio.h>
-#include <math.h>
+#include <stdbool.h>
 
 int main() {
-    int num, i, root;
+    int num, i, flag;
+
+    flag = true;
 
     printf("Please enter a number to cheak: ");
     scanf("%d", &num);
 
-    root = sqrt(num);
+    for(i = 3; i < num; i++) {
+        if(num % 3 == 0) {
+            flag = false;
+        }
+    }
 
-    if(num == 2) {
-        printf("%d is prime number.\n", num);
+    if (flag == true) {
+        printf("%d is prime\n", num);
     }
     else {
-        for(i = 2; i <= root; i++) {
-            if(num % i == 0) {
-                printf("%d is not prime number\n", num);
-                break;
-            }
-            else {
-                printf("%d is prime number\n", num);
-                break;
-            }
-        }
+        printf("%d is not prime\n", num);
     }
 
     return 0;

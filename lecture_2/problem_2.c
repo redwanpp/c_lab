@@ -1,3 +1,7 @@
+//Program to make average
+//written by S. M. Redwan
+//ID: 221-35-828
+
 #include <stdio.h>
 
 int main() {
@@ -8,7 +12,7 @@ int main() {
 
     avg = (num1 + num2 + num3) / 3;
 
-    printf("Average of: %.2f %.2f %.2f is: %.2f\n", num1, num2, num3, avg);
+    printf("Average of: %.2f, %.2f and %.2f is: %.2f\n", num1, num2, num3, avg);
 
     return 0;
 }

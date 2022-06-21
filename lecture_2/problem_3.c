@@ -1,4 +1,6 @@
 //Calculate the area of a rectangle
+//written by S. M. Redwan
+//ID: 221-35-828
 
 #include <stdio.h>
 

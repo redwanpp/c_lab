@@ -1,4 +1,6 @@
 //taking two integeer and calculate them
+//Written by S. M. Redwan
+//ID: 221-35-828
 
 #include <stdio.h>
 
@@ -14,9 +16,9 @@ int main() {
     div = num1 / num2;
 
     printf("%d + %d = %d\n", num1, num2, add);
-    printf("%d + %d = %d\n", num1, num2, sub);
-    printf("%d + %d = %d\n", num1, num2, mul);
-    printf("%d + %d = %d\n", num1, num2, div);
+    printf("%d - %d = %d\n", num1, num2, sub);
+    printf("%d * %d = %d\n", num1, num2, mul);
+    printf("%d / %d = %d\n", num1, num2, div);
 
     return 0;
 }

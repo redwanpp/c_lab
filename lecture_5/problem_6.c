@@ -1,7 +1,8 @@
 //printing all prime number of a rang
+//Written by S. M. Redwan
+//ID: 221-35-828
 
 #include <stdio.h>
-#include <math.h>
 #include <stdbool.h>
 
 int main() {
@@ -13,19 +14,13 @@ int main() {
     prime = 1;
 
     for(i = 2; i <= n; i++) {
-        if(i == 2) {
-            printf("%d. prime number is %d\n", prime, i);
-            prime++;
-        }
-
-        root = sqrt(i);
-
-        for(j = 2; j  <= root ; j++) {
+        a = true;
+        for(j = 3; j  < i ; j++) {
             if (i % j == 0) {
                  a = false;
             }
         }
-        if(a != false) {            
+        if(a != false) {
             printf("%d. prime number is %d\n", prime, i);
             prime++;
         }

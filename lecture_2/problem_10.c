@@ -1,4 +1,6 @@
 //use #define to determine area of circle
+//Written by S. M. Redwan
+//ID: 221-35-828
 
 #include <stdio.h>
 #define PI 3.1426
