@@ -14,7 +14,7 @@ int main() {
     scanf("%d", &num);
 
     for(i = 3; i < num; i++) {
-        if(num % 3 == 0) {
+        if(num % i == 0) {
             flag = false;
         }
     }

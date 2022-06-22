@@ -15,7 +15,7 @@ int main() {
 
     for(i = 2; i <= n; i++) {
         a = true;
-        for(j = 3; j  < i ; j++) {
+        for(j = 2; j  < i ; j++) {
             if (i % j == 0) {
                  a = false;
             }

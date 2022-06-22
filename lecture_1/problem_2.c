@@ -1,6 +1,6 @@
 //Printfing two sentances in different line by using \n
-//Written by S. M. Redwan
-//ID: 221-35-828
+//Written by Md. Amanullah aman
+//ID: 221-35-820
 
 #include <stdio.h>
 

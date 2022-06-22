@@ -1,6 +1,6 @@
 //calculate sum of all digit
-//Written by S. M. Redwan
-//ID: 221-35-828
+//written by Md. Amanullah Aman
+//ID: 221-35-820
 
 #include <stdio.h>
 
